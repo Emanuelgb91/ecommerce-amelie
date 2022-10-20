@@ -3,9 +3,9 @@ const Footer = () => {
         <footer>
             <img src="" alt="" />
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>contacto</li>
+                    <li>quienes somos</li>
+                    <li>tienda</li>
                 </ul>
                 <img src="" alt="" />
                 <img src="" alt="" />
@@ -13,4 +13,5 @@ const Footer = () => {
         </footer>
     )
 }
+
 export default Fotter
