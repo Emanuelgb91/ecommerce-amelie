@@ -1,9 +1,9 @@
+import ItemListContainer from "./ItemListContainer"
+
 const Main = () => {
     return(
         <main>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, voluptates?
-            </p>
+            <ItemListContainer/>
         </main>
 
     )

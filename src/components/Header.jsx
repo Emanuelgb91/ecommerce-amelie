@@ -1,14 +1,15 @@
+import CartWidget from "./CartWidget"
+import Navbar from "./Navbar"
+
 const Header = () => {
     return (
-        <header>
-            <nav>
-                <ul>
-                    <li>Nosotros</li>
-                    <li>Contacto</li>
-                    <li>Tienda</li>
-                </ul>
-            </nav>
-        </header>
+    <header className="containerHeader">
+        <div>
+            <img src="Amelie.png" alt="Logo Negocio" />
+        </div>
+        <Navbar/>
+        <CartWidget/>
+    </header>
     )
 }
 

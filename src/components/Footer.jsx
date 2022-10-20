@@ -1,13 +1,11 @@
+import Header from "./Header"
+
+
 const Footer = () => {
   return (
-    <div>
-        <ul>
-            <li>Nosotros</li>
-            <li>Contacto</li>
-            <li>Tienda</li>
-        </ul>
-    
-    </div>
+    <footer>
+      <Header/>
+    </footer>
   )
 }
 
