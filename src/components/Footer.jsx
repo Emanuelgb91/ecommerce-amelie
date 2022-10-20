@@ -1,17 +1,14 @@
 const Footer = () => {
-    return(
-        <footer>
-            <img src="" alt="" />
-                <ul>
-                    <li>contacto</li>
-                    <li>quienes somos</li>
-                    <li>tienda</li>
-                </ul>
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-        </footer>
-    )
+  return (
+    <div>
+        <ul>
+            <li>Nosotros</li>
+            <li>Contacto</li>
+            <li>Tienda</li>
+        </ul>
+    
+    </div>
+  )
 }
 
-export default Fotter
+export default Footer
