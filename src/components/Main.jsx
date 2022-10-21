@@ -1,9 +1,9 @@
 import ItemListContainer from "./ItemListContainer"
 
-const Main = ({saludo}) => {
+const Main = ({greeting}) => {
     return(
         <main>
-            <h1>{saludo}</h1>
+            <h1>{greeting}</h1>
             <ItemListContainer/>
         </main>
 

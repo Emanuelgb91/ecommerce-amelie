@@ -9,7 +9,7 @@ const App = () => {
     <>
       <Header/>
       <Main
-            saludo="Bienvenid@ a la tienda de Amelie"/>
+            greeting="Bienvenid@ a la tienda de Amelie"/>
       <Footer/>
     </>
   );
