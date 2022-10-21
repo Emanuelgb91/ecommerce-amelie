@@ -1,12 +1,11 @@
 import CartWidget from "./CartWidget"
+import LogoAmelie from "./LogoAmelie"
 import Navbar from "./Navbar"
 
 const Header = () => {
     return (
-    <header className="containerHeader">
-        <div>
-            <img src="Amelie.png" alt="Logo Negocio" />
-        </div>
+    <header>
+        <LogoAmelie/>
         <Navbar/>
         <CartWidget/>
     </header>
